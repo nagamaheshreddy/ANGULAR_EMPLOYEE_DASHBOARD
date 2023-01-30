@@ -1,0 +1,86 @@
+{
+  "employeeList": [
+    {
+      "employeeId": "2",
+      "employeeName": "karunakar",
+      "employeeEmail": "karna@57",
+      "employeeMobile": "7989252385",
+      "employeeSalary": "50,000",
+      "id": 2
+    },
+    {
+      "employeeId": "3",
+      "employeeName": "jeevan",
+      "employeeEmail": "jeevan@57",
+      "employeeMobile": "7989123456",
+      "employeeSalary": "40,000",
+      "id": 3
+    },
+    {
+      "employeeId": "4",
+      "employeeName": "ramesh",
+      "employeeEmail": "ramesh@89",
+      "employeeMobile": "7989285178",
+      "employeeSalary": "30,000",
+      "id": 4
+    },
+    {
+      "employeeId": "5",
+      "employeeName": "vishnu",
+      "employeeEmail": "vishnu@89",
+      "employeeMobile": "7989123451",
+      "employeeSalary": "50,000",
+      "id": 5
+    },
+    {
+      "employeeId": "6",
+      "employeeName": "bharath",
+      "employeeEmail": "bharath@89",
+      "employeeMobile": "7928354678",
+      "employeeSalary": "40,000",
+      "id": 6
+    },
+    {
+      "employeeId": "7",
+      "employeeName": "ganesh",
+      "employeeEmail": "ganesh@99",
+      "employeeMobile": "7989234567",
+      "employeeSalary": "40,000",
+      "id": 7
+    },
+    {
+      "employeeId": "8",
+      "employeeName": "nagireddy",
+      "employeeEmail": "nagireddy@8912",
+      "employeeMobile": "1231234544",
+      "employeeSalary": "30,000",
+      "id": 8
+    },
+    {
+      "employeeId": "9",
+      "employeeName": "ramireddy",
+      "employeeEmail": "ramireddy@99",
+      "employeeMobile": "7989345261",
+      "employeeSalary": "40,000",
+      "id": 9
+    },
+    {
+      "employeeId": "10",
+      "employeeName": "bodi",
+      "employeeEmail": "bodi@123",
+      "employeeMobile": "7989123123",
+      "employeeSalary": "40,000",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

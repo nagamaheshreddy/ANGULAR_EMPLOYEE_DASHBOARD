@@ -1,0 +1,64 @@
+<h1 mat-dialog-title>ADD EMPLOYEE FORM</h1>
+<div mat-dialog-content>
+  <form [formGroup]="productForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Employee ID</mat-label>
+      <input formControlName="employeeId" matInput placeholder="ID" />
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Employee Name</mat-label>
+      <input
+        formControlName="employeeName"
+        matInput
+        placeholder="Placeholder"
+      />
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Enter Employee email</mat-label>
+      <input
+        formControlName="employeeEmail"
+        matInput
+        placeholder="pat@example.com"
+        required
+      />
+      <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Mobile number</mat-label>
+      <input formControlName="employeeMobile" matInput />
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>salary</mat-label>
+      <mat-select formControlName="employeeSalary">
+        <mat-option value="10,000">10,000</mat-option>
+        <mat-option value="20,000">20,000</mat-option>
+        <mat-option value="30,000">30,000</mat-option>
+        <mat-option value="40,000">40,000</mat-option>
+        <mat-option value="50,000">50,000</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <!-- <mat-form-field appearance="fill">
+      <mat-label>Choose a date</mat-label>
+      <input matInput [matDatepicker]="picker" />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle
+        matIconSuffix
+        [for]="picker"
+      ></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field> -->
+    <div mat-dialog-action [align]="'end'">
+      <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+      <button
+        style="margin: 10px"
+        mat-raised-button
+        color="primary"
+        (click)="addProduct()"
+      >
+        {{ actionBtn }}
+      </button>
+    </div>
+  </form>
+</div>
